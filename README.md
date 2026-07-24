@@ -73,7 +73,7 @@ The "Quick-Master-Calculator" project, simplifies everyday calculations while se
 
 Contributions, suggestions and improvements are welcome. Feel free to fork the repository, create a new branch and submit a pull request.
 
-💬 Why I Made This
+💬 Purpose To Make This Project
 
 Quick Master Calculator started as a simple project to practice HTML, CSS, and JavaScript. It helped me understand how structure, styling, and functionality work together to create a useful web application. This project reflects my learning journey in front-end development while providing a fast and responsive calculator for everyday use.
 
