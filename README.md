@@ -12,7 +12,7 @@ Quick-Master-Calculator is a modern, responsive and interactive web-based calcul
 
 ✨ Features
 
-* Addition, Subtraction, Multiplication, and Division
+* Addition, Subtraction, Multiplication and Division
 * Percentage Calculations
 * Decimal Number Support
 * Real-Time Input and Output
