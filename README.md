@@ -19,10 +19,10 @@ Quick-Master-Calculator is a modern, responsive and interactive web-based calcul
   <li>* Real-Time Input and Output</li>
   <li>* Clear and Delete Functions</li>
   <li>* Responsive Design for Mobile, Tablet, and Desktop</li>
+  <li>* Clean and Modern User Interface</li>
+  <li>* Fast and Lightweight Performance</li>
+  <li>* Easy-to-Understand Code Structure</li>
 </ul>
-* Clean and Modern User Interface
-* Fast and Lightweight Performance
-* Easy-to-Understand Code Structure
 
 🛠 Technologies Used
 
