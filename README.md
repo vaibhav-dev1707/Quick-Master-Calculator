@@ -42,11 +42,11 @@ Quick-Master-Calculator/
 <h2>⚙️ How It Works</h2>
 
 <ol>
-  <li>1. The user clicks the calculator buttons.</li>
-  <li>2. JavaScript captures the input and displays it on the screen.</li>
-  <li>3. Mathematical expressions are processed dynamically.</li>
-  <li>4. The result is calculated instantly when the equals (=) button is pressed.</li>
-  <li>5. The clear function resets the display for a new calculation.</li>
+  <li> The user clicks the calculator buttons.</li>
+  <li> JavaScript captures the input and displays it on the screen.</li>
+  <li> Mathematical expressions are processed dynamically.</li>
+  <li> The result is calculated instantly when the equals (=) button is pressed.</li>
+  <li> The clear function resets the display for a new calculation.</li>
 </ol>
 
 📱 Responsive Design
