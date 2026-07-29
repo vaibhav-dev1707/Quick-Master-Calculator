@@ -13,15 +13,15 @@ Quick-Master-Calculator is a modern, responsive and interactive web-based calcul
 <h2>✨ Features</h2>
 
 <ul>
-  <li>* Addition, Subtraction, Multiplication and Division</li>
-  <li>* Percentage Calculations</li>
-  <li>* Decimal Number Support</li>
-  <li>* Real-Time Input and Output</li>
-  <li>* Clear and Delete Functions</li>
-  <li>* Responsive Design for Mobile, Tablet, and Desktop</li>
-  <li>* Clean and Modern User Interface</li>
-  <li>* Fast and Lightweight Performance</li>
-  <li>* Easy-to-Understand Code Structure</li>
+  <li> Addition, Subtraction, Multiplication and Division</li>
+  <li> Percentage Calculations</li>
+  <li> Decimal Number Support</li>
+  <li> Real-Time Input and Output</li>
+  <li> Clear and Delete Functions</li>
+  <li> Responsive Design for Mobile, Tablet, and Desktop</li>
+  <li> Clean and Modern User Interface</li>
+  <li> Fast and Lightweight Performance</li>
+  <li> Easy-to-Understand Code Structure</li>
 </ul>
 
 🛠 Technologies Used
