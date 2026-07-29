@@ -10,14 +10,16 @@ Quick-Master-Calculator is a modern, responsive and interactive web-based calcul
 <li> It also serves as a practical front-end project for learning DOM Manipulation, Event Handling and responsive web design.</li>
 </ul>
 
-✨ Features
+<h2>✨ Features</h2>
 
-* Addition, Subtraction, Multiplication and Division
-* Percentage Calculations
-* Decimal Number Support
-* Real-Time Input and Output
-* Clear and Delete Functions
-* Responsive Design for Mobile, Tablet, and Desktop
+<ul>
+  <li>* Addition, Subtraction, Multiplication and Division</li>
+  <li>* Percentage Calculations</li>
+  <li>* Decimal Number Support</li>
+  <li>* Real-Time Input and Output</li>
+  <li>* Clear and Delete Functions</li>
+  <li>* Responsive Design for Mobile, Tablet, and Desktop</li>
+</ul>
 * Clean and Modern User Interface
 * Fast and Lightweight Performance
 * Easy-to-Understand Code Structure
