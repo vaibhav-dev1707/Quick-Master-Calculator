@@ -98,8 +98,13 @@ Quick-Master-Calculator/
 
 <h2>📄 License</h2>
 
-<strong>This project is open-source and available for educational and learning purposes</strong> .
+<ul>
+<li>This project is open-source and available for educational and learning purposes.
+</li>
+</ul>
 
 <h2>👨‍💻 Author</h2>
 
-Built and maintained by <strong>Vaibhav</strong>, for those who believe in learning through structuring, styling and functionality.
+<ul>
+<li>Built and maintained by <strong>Vaibhav</strong>, for those who believe in learning through structuring, styling and functionality.</li>
+</ul>
