@@ -91,11 +91,11 @@ Quick-Master-Calculator/
 
 <h2>💬 Purpose To Make This Project</h2>
 
-Quick Master Calculator started as a simple project to practice HTML, CSS, and JavaScript. It helped me understand how structure, styling, and functionality work together to create a useful web application. This project reflects my learning journey in front-end development while providing a fast and responsive calculator for everyday use.
+Quick Master Calculator started as a simple project to practice HTML, CSS, and JavaScript. It helps to understand how structure, styling, and functionality work together to create a useful web application. This project reflects my learning journey in front-end development while providing a fast and responsive calculator for everyday use.
 
-📄 License
+<h2>📄 License</h2>
 
-This project is open-source and available for educational and learning purposes.
+<strong>This project is open-source and available for educational and learning purposes</strong> .
 
 👨‍💻 Author
 
