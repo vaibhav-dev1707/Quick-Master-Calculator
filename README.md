@@ -25,9 +25,9 @@ Quick-Master-Calculator is a modern, responsive and interactive web-based calcul
 
 <h2>🛠 Technologies Used</h2>
 
-HTML5 – Structure and layout of the calculator
-CSS3 – Styling, responsiveness, and visual appearance
-JavaScript (ES6) – Calculation logic and user interactions
+HTML5 – Structure and layout of the calculator <br>
+CSS3 – Styling, responsiveness, and visual appearance <br>
+JavaScript (ES6) – Calculation logic and user interactions <br>
 
 <h2>📂 Project Structure</h2>
 
