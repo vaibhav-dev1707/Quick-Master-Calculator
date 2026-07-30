@@ -57,15 +57,15 @@ Quick-Master-Calculator/
 
 <h2>🎯 Educational Value</h2>
 
-This project is an excellent learning resource for beginners who want to understand:
+<strong>This project is an excellent learning resource for beginners who want to understand</strong>:
 
 <ol>
-  <li>* DOM Manipulation</li>
-  <li>* Event Handling</li>
-  <li>* JavaScript Functions</li>
-  <li>* Responsive Web Design</li>
-  <li>* User Interface Development</li>
-  <li>* Front-End Project Structure</li>
+  <li> DOM Manipulation</li>
+  <li> Event Handling</li>
+  <li> JavaScript Functions</li>
+  <li> Responsive Web Design</li>
+  <li> User Interface Development</li>
+  <li> Front-End Project Structure</li>
 </ol>
 
 💡 Why This Project Is Useful
