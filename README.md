@@ -100,6 +100,6 @@ Quick-Master-Calculator/
 
 <strong>This project is open-source and available for educational and learning purposes</strong> .
 
-👨‍💻 Author
+<h2>👨‍💻 Author</h2>
 
-Built and maintained by Vaibhav, for those who believe in learning through structuring, styling, and functionality.
+Built and maintained by <strong>Vaibhav</strong>, for those who believe in learning through structuring, styling and functionality.
