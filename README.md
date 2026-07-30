@@ -55,16 +55,18 @@ Quick-Master-Calculator/
 <li> The calculator is fully responsive and adapts automatically to different screen sizes. Whether accessed on a desktop, laptop, tablet, or smartphone, the interface remains clean, accessible, and easy to use.</li>
 </ul>
 
-🎯 Educational Value
+<h2>🎯 Educational Value</h2>
 
 This project is an excellent learning resource for beginners who want to understand:
 
-* DOM Manipulation
-* Event Handling
-* JavaScript Functions
-* Responsive Web Design
-* User Interface Development
-* Front-End Project Structure
+<ol>
+  <li>* DOM Manipulation</li>
+  <li>* Event Handling</li>
+  <li>* JavaScript Functions</li>
+  <li>* Responsive Web Design</li>
+  <li>* User Interface Development</li>
+  <li>* Front-End Project Structure</li>
+</ol>
 
 💡 Why This Project Is Useful
 
