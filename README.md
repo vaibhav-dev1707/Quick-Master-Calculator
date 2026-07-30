@@ -51,7 +51,9 @@ Quick-Master-Calculator/
 
 <h2>📱 Responsive Design</h2>
 
-The calculator is fully responsive and adapts automatically to different screen sizes. Whether accessed on a desktop, laptop, tablet, or smartphone, the interface remains clean, accessible, and easy to use.
+<ul>
+<li> The calculator is fully responsive and adapts automatically to different screen sizes. Whether accessed on a desktop, laptop, tablet, or smartphone, the interface remains clean, accessible, and easy to use.</li>
+</ul>
 
 🎯 Educational Value
 
