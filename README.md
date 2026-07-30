@@ -24,13 +24,13 @@ Quick-Master-Calculator is a modern, responsive and interactive web-based calcul
   <li> Easy-to-Understand Code Structure</li>
 </ul>
 
-🛠 Technologies Used
+<h2>🛠 Technologies Used</h2>
 
 HTML5 – Structure and layout of the calculator
 CSS3 – Styling, responsiveness, and visual appearance
 JavaScript (ES6) – Calculation logic and user interactions
 
-📂 Project Structure
+<h2>📂 Project Structure</h2>
 
 Quick-Master-Calculator/
 │
@@ -49,7 +49,7 @@ Quick-Master-Calculator/
   <li> The clear function resets the display for a new calculation.</li>
 </ol>
 
-📱 Responsive Design
+<h2>📱 Responsive Design</h2>
 
 The calculator is fully responsive and adapts automatically to different screen sizes. Whether accessed on a desktop, laptop, tablet, or smartphone, the interface remains clean, accessible, and easy to use.
 
