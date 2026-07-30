@@ -32,7 +32,7 @@ JavaScript (ES6) – Calculation logic and user interactions <br>
 <h2>📂 Project Structure</h2>
 
 Quick-Master-Calculator/ <br>
-│
+│ <br>
 ├── calculator.html <br>
 ├── calculator.css <br>
 ├── calculator.js <br>
