@@ -74,16 +74,18 @@ Quick-Master-Calculator/
 <li>The "Quick-Master-Calculator" project, simplifies everyday calculations while serving as a practical example of front-end web development. It helps developers understand how HTML, CSS, and JavaScript work together to build real-world applications.</li>
 </ul>
 
-🔮 Future Enhancements
+<h2>🔮 Future Enhancements</h2>
 
-* Scientific Calculator Functions
-* Calculation History
-* Keyboard Support
-* Dark/Light Theme Toggle
-* Memory Functions (M+, M-, MR, MC)
-* Advanced Mathematical Operations
+<ul>
+  <li>* Scientific Calculator Functions</li>
+  <li>* Calculation History</li>
+  <li>* Keyboard Support</li>
+  <li>* Dark/Light Theme Toggle</li>
+  <li>* Memory Functions (M+, M-, MR, MC)</li>
+  <li>* Advanced Mathematical Operations</li>
+</ul>
 
-🤝 Contributions
+<h2>🤝 Contributions</h2>
 
 Contributions, suggestions and improvements are welcome. Feel free to fork the repository, create a new branch and submit a pull request.
 
