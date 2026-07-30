@@ -57,7 +57,7 @@ Quick-Master-Calculator/
 
 <h2>🎯 Educational Value</h2>
 
-<strong>This project is an excellent learning resource for beginners who want to understand</strong>:
+<strong>This project is an excellent learning resource for beginners who want to understand</strong> :
 
 <ol>
   <li> DOM Manipulation</li>
@@ -68,7 +68,7 @@ Quick-Master-Calculator/
   <li> Front-End Project Structure</li>
 </ol>
 
-💡 Why This Project Is Useful
+<strong>💡 Why This Project Is Useful</strong>
 
 The "Quick-Master-Calculator" project, simplifies everyday calculations while serving as a practical example of front-end web development. It helps developers understand how HTML, CSS, and JavaScript work together to build real-world applications.
 
