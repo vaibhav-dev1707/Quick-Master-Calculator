@@ -5,9 +5,8 @@ Quick-Master-Calculator is a modern, responsive and interactive web-based calcul
 <h2>🚀 Overview</h2>
 
 <ul>
-<li> This calculator allows users to perform common arithmetic operations with ease. It provides instant results, smooth interaction and a responsive layout that works seamlessly across different devices. The project is lightweight, fast and does not require any external libraries or frameworks.</li>
-
-<li> It also serves as a practical front-end project for learning DOM Manipulation, Event Handling and responsive web design.</li>
+  <li> This calculator allows users to perform common arithmetic operations with ease. It provides instant results, smooth interaction and a responsive layout that works seamlessly across different devices. The project is lightweight, fast and does not require any external libraries or frameworks.</li>
+  <li> It also serves as a practical front-end project for learning DOM Manipulation, Event Handling and responsive web design.</li>
 </ul>
 
 <h2>✨ Features</h2>
@@ -52,7 +51,7 @@ Quick-Master-Calculator/
 <h2>📱 Responsive Design</h2>
 
 <ul>
-<li> The calculator is fully responsive and adapts automatically to different screen sizes. Whether accessed on a desktop, laptop, tablet, or smartphone, the interface remains clean, accessible, and easy to use.</li>
+  <li> The calculator is fully responsive and adapts automatically to different screen sizes. Whether accessed on a desktop, laptop, tablet, or smartphone, the interface remains clean, accessible, and easy to use.</li>
 </ul>
 
 <h2>🎯 Educational Value</h2>
@@ -71,7 +70,7 @@ Quick-Master-Calculator/
 <strong>💡 Why This Project Is Useful</strong> : 
 
 <ul>
-<li>The "Quick-Master-Calculator" project, simplifies everyday calculations while serving as a practical example of front-end web development. It helps developers understand how HTML, CSS, and JavaScript work together to build real-world applications.</li>
+  <li>The "Quick-Master-Calculator" project, simplifies everyday calculations while serving as a practical example of front-end web development. It helps developers understand how HTML, CSS, and JavaScript work together to build real-world applications.</li>
 </ul>
 
 <h2>🔮 Future Enhancements</h2>
@@ -87,24 +86,24 @@ Quick-Master-Calculator/
 
 <h2>🤝 Contributions</h2>
 
-👍 Contributions, suggestions and improvements are welcome. Feel free to fork the repository, create a new branch and submit a pull request.
+👍 Contributions, suggestions and improvements are welcome to feel free to fork the repository, create a new branch and submit a pull request.
 
 <h2>💬 Purpose To Make This Project</h2>
 
 <ul>
-<li> Quick-Master-Calculator started as a simple project to practice HTML, CSS, and JavaScript. It helps to understand how structure, styling, and functionality work together to create a useful web application. </li>
-<li> This project reflects my learning journey in front-end development while providing a fast and responsive calculator for everyday use</li> .
+  <li> Quick-Master-Calculator started as a simple project to practice HTML, CSS, and JavaScript. It helps to understand how structure, styling, and functionality work together to create a useful web application. </li>
+  <li> This project reflects my learning journey in front-end development while providing a fast and responsive calculator for everyday use</li> .
 </ul>
 
 <h2>📄 License</h2>
 
 <ul>
-<li>This project is open-source and available for educational and learning purposes.
+  <li>This project is open-source and available for educational and learning purposes.
 </li>
 </ul>
 
 <h2>👨‍💻 Author</h2>
 
 <ul>
-<li>Built and maintained by <strong>Vaibhav</strong>, for those who believe in learning through structuring, styling and functionality.</li>
+  <li>Built and maintained by <strong>Vaibhav</strong>, for those who believe in learning through structuring, styling and functionality.</li>
 </ul>
