@@ -31,7 +31,6 @@ function squareRoot() {
         display.value = Math.sqrt(eval(display.value));
     }
 }
-
 function factorial() {
 
     if (display.value === "") return;
@@ -42,7 +41,7 @@ function factorial() {
         display.value = "Error";
         return;
     }
-
+    
     let fact = 1;
 
     for (let i = 2; i <= n; i++) {
@@ -86,7 +85,6 @@ function calculate() {
     }
 
 }
-
 function toggleScientific() {
 
     let sci = document.getElementById("scientific");
