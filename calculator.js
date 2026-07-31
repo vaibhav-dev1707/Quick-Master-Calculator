@@ -3,15 +3,12 @@ const display = document.getElementById("display");
 function press(value) {
     display.value += value;
 }
-
 function clearDisplay() {
     display.value = "";
 }
-
 function backspace() {
     display.value = display.value.slice(0, -1);
 }
-
 function addBracket() {
     let value = display.value;
 
@@ -24,13 +21,11 @@ function addBracket() {
         display.value += "(";
     }
 }
-
 function toggleSign() {
     if (display.value !== "") {
         display.value = eval(display.value) * -1;
     }
 }
-
 function squareRoot() {
     if (display.value !== "") {
         display.value = Math.sqrt(eval(display.value));
