@@ -4,30 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Calculator</title>
+    <title>Quick-Master-Calculator</title>
     <link rel="stylesheet" href="calculator.css" />
   </head>
+
   <body>
     <div class="calculator">
+      <!-- Display -->
       <input type="text" id="display" disabled />
 
+      <!-- Scientific Toggle -->
       <button class="toggle-btn" onclick="toggleScientific()">⌄</button>
+
+      <!-- Scientific Panel -->
       <div id="scientific" class="scientific">
-        <button class="func">√</button>
-        <button class="func">π</button>
-        <button class="func">^</button>
-        <button class="func">!</button>
+        <!-- Row 1 -->
+        <button onclick="squareRoot()">√</button>
+        <button onclick="press('Math.PI')">π</button>
+        <button onclick="press('**')">^</button>
+        <button onclick="factorial()">!</button>
 
+        <!-- Row 2 -->
+        <button onclick="press('sin(')">sin</button>
+        <button onclick="press('cos(')">cos</button>
+        <button onclick="press('tan(')">tan</button>
+        <button onclick="press('Math.E')">e</button>
+
+        <!-- Row 3 -->
+        <button onclick="press('sec(')">sec</button>
+        <button onclick="press('cosec(')">cosec</button>
+        <button onclick="press('cot(')">cot</button>
+        <button onclick="press('ln(')">ln</button>
+
+        <!-- Row 4 -->
+        <button onclick="press('log(')">log</button>
         <button class="func">Rad</button>
-        <button onclick="press('sin(')" )>sin</button>
-        <button onclick="press('cos(')" )>cos</button>
-        <button onclick="press('tan(')" )>tan</button>
-
         <button class="func">Inv</button>
-        <button class="func">e</button>
-        <button class="func">ln</button>
-        <button class="func">log</button>
+        <button onclick="toggleSign()">±</button>
       </div>
 
+      <!-- Basic Calculator -->
       <div class="buttons">
         <button class="ac" onclick="clearDisplay()">AC</button>
         <button onclick="addBracket()">()</button>
@@ -37,12 +53,12 @@
         <button onclick="press(7)">7</button>
         <button onclick="press(8)">8</button>
         <button onclick="press(9)">9</button>
-        <button onclick="press('*')">*</button>
+        <button onclick="press('*')">×</button>
 
         <button onclick="press(4)">4</button>
         <button onclick="press(5)">5</button>
         <button onclick="press(6)">6</button>
-        <button onclick="press('-')">-</button>
+        <button onclick="press('-')">−</button>
 
         <button onclick="press(1)">1</button>
         <button onclick="press(2)">2</button>
@@ -55,6 +71,7 @@
         <button class="equal" onclick="calculate()">=</button>
       </div>
     </div>
+
     <script src="calculator.js"></script>
   </body>
 </html>
