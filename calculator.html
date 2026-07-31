@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Calculator</title>
     <title>Quick-Master-Calculator</title>
     <link rel="stylesheet" href="calculator.css" />
   </head>
@@ -12,38 +11,32 @@
     <div class="calculator">
       <!-- Display -->
       <input type="text" id="display" disabled />
-
-      <!-- Scientific Toggle -->
+      
       <button class="toggle-btn" onclick="toggleScientific()">⌄</button>
 
-      <!-- Scientific Panel -->
       <div id="scientific" class="scientific">
-        <!-- Row 1 -->
+        
         <button onclick="squareRoot()">√</button>
         <button onclick="press('Math.PI')">π</button>
         <button onclick="press('**')">^</button>
         <button onclick="factorial()">!</button>
-
-        <!-- Row 2 -->
+        
         <button onclick="press('sin(')">sin</button>
         <button onclick="press('cos(')">cos</button>
         <button onclick="press('tan(')">tan</button>
         <button onclick="press('Math.E')">e</button>
 
-        <!-- Row 3 -->
         <button onclick="press('sec(')">sec</button>
         <button onclick="press('cosec(')">cosec</button>
         <button onclick="press('cot(')">cot</button>
         <button onclick="press('ln(')">ln</button>
 
-        <!-- Row 4 -->
         <button onclick="press('log(')">log</button>
         <button class="func">Rad</button>
         <button class="func">Inv</button>
         <button onclick="toggleSign()">±</button>
       </div>
 
-      <!-- Basic Calculator -->
       <div class="buttons">
         <button class="ac" onclick="clearDisplay()">AC</button>
         <button onclick="addBracket()">()</button>
