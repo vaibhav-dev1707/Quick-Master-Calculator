@@ -26,7 +26,7 @@ Quick-Master-Calculator is a modern, responsive and interactive web-based calcul
 <h2>🛠 Technologies Used</h2>
 
 HTML5 – Structure and layout of the calculator <br>
-CSS3 – Styling, responsiveness, and visual appearance <br>
+CSS3 – Styling, responsiveness and visual appearance <br>
 JavaScript (ES6) – Calculation logic and user interactions <br>
 
 <h2>📂 Project Structure</h2>
@@ -70,7 +70,7 @@ Quick-Master-Calculator/ <br>
 <strong>💡 Why This Project Is Useful</strong> : 
 
 <ul>
-  <li>The "Quick-Master-Calculator" project, simplifies everyday calculations while serving as a practical example of front-end web development. It helps developers understand how HTML, CSS, and JavaScript work together to build real-world applications.</li>
+  <li>The "Quick-Master-Calculator" project, simplifies everyday calculations while serving as a practical example of front-end web development. It helps developers understand how HTML, CSS and JavaScript work together to build real-world applications.</li>
 </ul>
 
 <h2>🔮 Future Enhancements</h2>
