@@ -17,7 +17,7 @@ Quick-Master-Calculator is a modern, responsive and interactive web-based calcul
   <li> Decimal Number Support</li>
   <li> Real-Time Input and Output</li>
   <li> Clear and Delete Functions</li>
-  <li> Responsive Design for Mobile, Tablet, and Desktop</li>
+  <li> Responsive Design for Mobile, Tablet and Desktop</li>
   <li> Clean and Modern User Interface</li>
   <li> Fast and Lightweight Performance</li>
   <li> Easy-to-Understand Code Structure</li>
@@ -51,7 +51,7 @@ Quick-Master-Calculator/ <br>
 <h2>📱 Responsive Design</h2>
 
 <ul>
-  <li> The calculator is fully responsive and adapts automatically to different screen sizes. Whether accessed on a desktop, laptop, tablet, or smartphone, the interface remains clean, accessible, and easy to use.</li>
+  <li> The calculator is fully responsive and adapts automatically to different screen sizes. Whether accessed on a desktop, laptop, tablet or smartphone, the interface remains clean, accessible and easy to use.</li>
 </ul>
 
 <h2>🎯 Educational Value</h2>
@@ -91,7 +91,7 @@ Quick-Master-Calculator/ <br>
 <h2>💬 Purpose To Make This Project</h2>
 
 <ul>
-  <li> Quick-Master-Calculator started as a simple project to practice HTML, CSS, and JavaScript. It helps to understand how structure, styling, and functionality work together to create a useful web application. </li>
+  <li> Quick-Master-Calculator started as a simple project to practice HTML, CSS and JavaScript. It helps to understand how structure, styling, and functionality work together to create a useful web application. </li>
   <li> This project reflects my learning journey in front-end development while providing a fast and responsive calculator for everyday use.</li>
 </ul>
 
