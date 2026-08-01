@@ -92,13 +92,13 @@ Quick-Master-Calculator/ <br>
 
 <ul>
   <li> Quick-Master-Calculator started as a simple project to practice HTML, CSS, and JavaScript. It helps to understand how structure, styling, and functionality work together to create a useful web application. </li>
-  <li> This project reflects my learning journey in front-end development while providing a fast and responsive calculator for everyday use</li> .
+  <li> This project reflects my learning journey in front-end development while providing a fast and responsive calculator for everyday use.</li>
 </ul>
 
 <h2>📄 License</h2>
 
 <ul>
-  <li>This project is open-source and available for educational and learning purposes.
+<li>This project is open-source and available for educational and learning purposes.
 </li>
 </ul>
 
