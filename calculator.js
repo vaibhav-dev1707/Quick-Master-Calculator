@@ -1,83 +1,266 @@
 const display = document.getElementById("display");
 
+let memory = 0;
+let lastAnswer = 0;
+let degreeMode = true;
+
 function press(value) {
+
+    if (display.value === "0" || display.value === "Error") {
+        display.value = "";
+    }
+
     display.value += value;
 }
+
 function clearDisplay() {
-    display.value = "";
+    display.value = "0";
 }
+
 function backspace() {
-    display.value = display.value.slice(0, -1);
+
+    if (display.value.length > 1) {
+        display.value = display.value.slice(0, -1);
+    } else {
+        display.value = "0";
+    }
+
 }
+
+function answer() {
+
+    if (display.value === "0")
+        display.value = "";
+
+    display.value += lastAnswer;
+
+}
+
+function toggleSign() {
+    if (display.value.startsWith("-")) {
+        display.value = display.value.substring(1);
+    } else {
+        display.value = "-" + display.value;
+    }
+}
+
+function randomNumber() {
+
+    display.value = Math.random();
+
+}
+
+function memoryAdd() {
+
+    memory += Number(display.value);
+
+}
+
+function memorySub() {
+
+    memory -= Number(display.value);
+
+}
+
+function memoryRecall() {
+
+    display.value = memory;
+
+}
+
+function memoryClear() {
+
+    memory = 0;
+
+}
+
 function addBracket() {
-    let value = display.value;
+    let openCount = (display.value.match(/\(/g) || []).length;
+    let closeCount = (display.value.match(/\)/g) || []).length;
 
-    let open = (value.match(/\(/g) || []).length;
-    let close = (value.match(/\)/g) || []).length;
-
-    if (open > close) {
+    if (openCount > closeCount) {
         display.value += ")";
     } else {
         display.value += "(";
     }
 }
-function toggleSign() {
-    if (display.value !== "") {
-        display.value = eval(display.value) * -1;
-    }
+
+const radios = document.querySelectorAll('input[name="mode"]');
+
+radios.forEach(radio => {
+
+    radio.addEventListener("change", () => {
+
+        degreeMode = radios[0].checked;
+
+    });
+
+});
+
+function toRadians(value) {
+
+    return degreeMode ? value * Math.PI / 180 : value;
+
 }
-function squareRoot() {
-    if (display.value !== "") {
-        display.value = Math.sqrt(eval(display.value));
-    }
-}
-function factorial() {
 
-    if (display.value === "") return;
+document.addEventListener("keydown", function(event){
 
-    let n = Number(eval(display.value));
+    let key = event.key;
 
-    if (n < 0 || !Number.isInteger(n)) {
-        display.value = "Error";
+    if (!isNaN(key)) {
+        press(key);
         return;
     }
-    
-    let fact = 1;
 
-    for (let i = 2; i <= n; i++) {
-        fact *= i;
+    switch(key){
+
+        case "+":
+        case "-":
+        case "*":
+        case "/":
+        case ".":
+        case "(":
+        case ")":
+            press(key);
+            break;
+
+        case "Backspace":
+            backspace();
+            break;
+
+        case "Delete":
+            clearDisplay();
+            break;
+
+        case "Enter":
+        case "=":
+            event.preventDefault();
+            calculate();
+            break;
     }
 
-    display.value = fact;
+});
+
+
+function factorialInline(n) {
+
+    n = Number(n);
+
+    if (n < 0) return NaN;
+    if (n === 0 || n === 1) return 1;
+
+    let result = 1;
+
+    for (let i = 2; i <= n; i++) {
+        result *= i;
+    }
+
+    return result;
+
 }
 
 function calculate() {
 
-    let result = display.value;
-
     try {
 
-        result = result.replace(/÷/g, "/");
-        result = result.replace(/×/g, "*");
+        let exp = display.value;
 
-        result = result.replace(/%/g, "/100");
+        exp = exp.replace(/×/g, "*");
+        exp = exp.replace(/÷/g, "/");
+        exp = exp.replace(/\^/g, "**");
 
-        // Scientific Functions
-        result = result.replace(/cosec\(/g, "(1/Math.sin(");
-        result = result.replace(/sec\(/g, "(1/Math.cos(");
-        result = result.replace(/cot\(/g, "(1/Math.tan(");
+        exp = exp.replace(/π/g, Math.PI);
+        exp = exp.replace(/\be\b/g, Math.E);
 
-        result = result.replace(/sin\(/g, "Math.sin(");
-        result = result.replace(/cos\(/g, "Math.cos(");
-        result = result.replace(/tan\(/g, "Math.tan(");
+        exp = exp.replace(/sin\(([^()]*)\)/g,
+            (_, x) => Math.sin(toRadians(Number(x)))
+        );
 
-        result = result.replace(/ln\(/g, "Math.log(");
-        result = result.replace(/log\(/g, "Math.log10(");
+        exp = exp.replace(/cos\(([^()]*)\)/g,
+            (_, x) => Math.cos(toRadians(Number(x)))
+        );
 
-        display.value = eval(result);
+        exp = exp.replace(/tan\(([^()]*)\)/g,
+            (_, x) => Math.tan(toRadians(Number(x)))
+        );
+
+        exp = exp.replace(/asin\(([^()]*)\)/g,
+            (_, x) => {
+                let ans = Math.asin(Number(x));
+                return degreeMode ? ans * 180 / Math.PI : ans;
+            }
+        );
+
+        exp = exp.replace(/acos\(([^()]*)\)/g,
+            (_, x) => {
+                let ans = Math.acos(Number(x));
+                return degreeMode ? ans * 180 / Math.PI : ans;
+            }
+        );
+
+        exp = exp.replace(/atan\(([^()]*)\)/g,
+            (_, x) => {
+                let ans = Math.atan(Number(x));
+                return degreeMode ? ans * 180 / Math.PI : ans;
+            }
+        );
+
+        exp = exp.replace(/sqrt\(([^()]*)\)/g,
+            (_, x) => Math.sqrt(Number(x))
+        );
+
+        exp = exp.replace(/cbrt\(([^()]*)\)/g,
+            (_, x) => Math.cbrt(Number(x))
+        );
+
+        exp = exp.replace(/log\(([^()]*)\)/g,
+            (_, x) => Math.log10(Number(x))
+        );
+
+        exp = exp.replace(/ln\(([^()]*)\)/g,
+            (_, x) => Math.log(Number(x))
+        );
+
+        exp = exp.replace(/(\d+(\.\d+)?)²/g,
+            (_, x) => Math.pow(Number(x), 2)
+        );
+
+        exp = exp.replace(/(\d+(\.\d+)?)³/g,
+            (_, x) => Math.pow(Number(x), 3)
+        );
+
+        exp = exp.replace(/(\d+)!/g,
+            (_, x) => factorialInline(Number(x))
+        );
+
+        exp = exp.replace(/1\/(\d+(\.\d+)?)/g,
+            (_, x) => 1 / Number(x)
+        );
+
+        exp = exp.replace(/10\^([^)]+)/g,
+            (_, x) => Math.pow(10, Number(x))
+        );
+
+        exp = exp.replace(/exp\(([^()]*)\)/g,
+            (_, x) => Math.exp(Number(x))
+        );
+
+        exp = exp.replace(/(\d+)yroot(\d+)/g,
+            (_, y, x) => Math.pow(Number(x), 1 / Number(y))
+        );
+
+        exp = exp.replace(
+            /(\d+(\.\d+)?)EXP(-?\d+)/g,
+            (_, value, d, exponent) =>
+                Number(value) * Math.pow(10, Number(exponent))
+        );
+
+        let result = eval(exp);
+
+        display.value = result;
+        lastAnswer = result;
 
     }
-
     catch {
 
         display.value = "Error";
@@ -85,23 +268,42 @@ function calculate() {
     }
 
 }
+
+function squareRoot() {
+    try {
+        display.value = Math.sqrt(eval(display.value));
+    } catch {
+        display.value = "Error";
+    }
+}
+
+function power() {
+    display.value += "**";
+}
+
+function factorial() {
+    let num = Number(display.value);
+
+    if (num < 0) {
+        display.value = "Error";
+        return;
+    }
+
+    let result = 1;
+
+    for (let i = 1; i <= num; i++) {
+        result *= i;
+    }
+
+    display.value = result;
+}
+
 function toggleScientific() {
-
     let sci = document.getElementById("scientific");
-    let btn = document.querySelector(".toggle-btn");
 
-    sci.classList.toggle("show");
-
-    if (sci.classList.contains("show")) {
-
-        btn.innerText = "⌃";
-
+    if (sci.style.display === "none") {
+        sci.style.display = "grid";
+    } else {
+        sci.style.display = "none";
     }
-
-    else {
-
-        btn.innerText = "⌄";
-
-    }
-
 }
