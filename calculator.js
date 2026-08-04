@@ -303,7 +303,6 @@ function squareRoot(){
 
 function power(){
 
-
     display.value += "**";
 
 }
