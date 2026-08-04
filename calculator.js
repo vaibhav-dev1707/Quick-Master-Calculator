@@ -69,13 +69,11 @@ function memorySub() {
 
 }
 
-
 function memoryRecall() {
 
     display.value = memory;
 
 }
-
 
 function memoryClear() {
 
@@ -162,29 +160,22 @@ document.addEventListener("keydown", function(event){
 
 });
 
-
-
 function factorialInline(n) {
 
 function factorial(n){
 
-
     n = Number(n);
-
 
     if(n < 0)
         return NaN;
 
-
     let result = 1;
-
 
     for(let i = 1; i <= n; i++){
 
         result *= i;
 
     }
-
 
     return result;
 
@@ -194,54 +185,42 @@ function calculate(){
 
     try{
 
-
         let exp = display.value;
-
 
         exp = exp.replace(/×/g,"*");
         exp = exp.replace(/÷/g,"/");
         exp = exp.replace(/\^/g,"**");
 
-
         exp = exp.replace(/π/g,Math.PI);
         exp = exp.replace(/\be\b/g,Math.E);
-
-
 
         exp = exp.replace(/sin\((.*?)\)/g,
             (_,x)=>Math.sin(toRadians(Number(x)))
         );
 
-
         exp = exp.replace(/cos\((.*?)\)/g,
             (_,x)=>Math.cos(toRadians(Number(x)))
         );
-
 
         exp = exp.replace(/tan\((.*?)\)/g,
             (_,x)=>Math.tan(toRadians(Number(x)))
         );
 
-
         exp = exp.replace(/sqrt\((.*?)\)/g,
             (_,x)=>Math.sqrt(Number(x))
         );
-
 
         exp = exp.replace(/log\((.*?)\)/g,
             (_,x)=>Math.log10(Number(x))
         );
 
-
         exp = exp.replace(/ln\((.*?)\)/g,
             (_,x)=>Math.log(Number(x))
         );
 
-
         exp = exp.replace(/(\d+)!/g,
             (_,x)=>factorial(x)
         );
-
 
         exp = exp.replace(/cbrt\(([^()]*)\)/g,
             (_, x) => Math.cbrt(Number(x))
@@ -289,10 +268,7 @@ function calculate(){
                 Number(value) * Math.pow(10, Number(exponent))
         );
 
-
-
         let result = eval(exp);
-
 
         display.value = result;
 
@@ -308,7 +284,6 @@ function calculate(){
     }
 
 }
-
 
 function squareRoot() {
     try {
@@ -333,21 +308,17 @@ function power(){
 
 }
 
-
 function addBracket(){
 
     display.value += "()";
 
 }
 
-
 function toggleScientific() {
 
 function toggleScientific(){
 
-
     let sci = document.getElementById("scientific");
-
 
     if(sci.style.display==="none"){
 
@@ -358,6 +329,10 @@ function toggleScientific(){
 
         sci.style.display="none";
 
-    }
+            }
 
+        }
+
+      }
+   }
 }
