@@ -248,6 +248,48 @@ function calculate() {
     }
 }
 
-window.onload = function () {
-    display.value = "0";
-};
+function power() {
+
+function squareRoot(){
+
+    display.value = Math.sqrt(Number(display.value));
+
+}
+
+function power(){
+
+    display.value += "**";
+
+}
+
+function addBracket(){
+
+    display.value += "()";
+
+}
+
+function toggleScientific() {
+
+function toggleScientific(){
+
+    let sci = document.getElementById("scientific");
+
+    if(sci.style.display==="none"){
+
+        sci.style.display="grid";
+
+    }
+    else{
+
+        sci.style.display="none";
+
+            }
+
+        }
+
+      }
+   }
+
+// window.onload = function () {
+//     display.value = "0";
+// };
