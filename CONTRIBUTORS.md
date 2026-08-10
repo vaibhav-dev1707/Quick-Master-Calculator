@@ -1,3 +1,3 @@
 👩‍💻 Contributors of Quick-Master-Calculator
 
-- Vaibhav
+- Vaibhav - [vaibhav-dev1707](https://github.com/vaibhav-dev1707)
