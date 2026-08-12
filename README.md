@@ -98,7 +98,7 @@ Quick-Master-Calculator/ <br>
 <h2>📄 License</h2>
 
 <ul>
-  <li>This project is open-source and available for educational and learning purposes.
+  <li>The project "Quick-Master-Calculator" is open-source and available for educational and learning purposes.
 </li>
 </ul>
 
