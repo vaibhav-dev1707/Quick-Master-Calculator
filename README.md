@@ -107,3 +107,6 @@ Quick-Master-Calculator/ <br>
 <ul>
   <li>Built and maintained by <strong>Vaibhav</strong>, for those who believe in learning through structuring, styling and functionality.</li>
 </ul>
+
+## ⭐ Show Your Support
+If you like this project, give it a ⭐ on GitHub!
