@@ -109,4 +109,7 @@ Quick-Master-Calculator/ <br>
 </ul>
 
 ## ⭐ Show Your Support
-If you like this project, give it a ⭐ on GitHub!
+
+<ul>
+  <li>If you like this project, give it a ⭐ on GitHub!</li>
+</ul>
