@@ -35,8 +35,8 @@ Quick-Master-Calculator/ <br>
 │ <br>
 ├── calculator.html <br>
 ├── calculator.css <br>
-├── calculator.js <br>
-└── README.md <br>
+└── calculator.js <br>
+ 
 
 <h2>⚙️ How It Works</h2>
 
