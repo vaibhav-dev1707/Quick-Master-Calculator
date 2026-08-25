@@ -124,4 +124,4 @@ Quick-Master-Calculator/ <br>
 # **👨‍💻 Author**
 </div>
 
-- Built and maintained by <strong>Vaibhav</strong>, for those who believe in learning through structuring, styling and functionality.
+- Built and maintained by **[Vaibhav](https://github.com/vaibhsh17/vaibhsh17)** for those who believe in learning through structuring, styling and functionality.
