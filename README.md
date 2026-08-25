@@ -117,7 +117,7 @@ Quick-Master-Calculator/ <br>
 # **📄 License**
 </div>
 
-- The project **Quick-Master-Calculator** is open-source and available for educational and learning purposes.
+- The project **[Quick-Master-Calculator](https://github.com/vaibhsh17/Quick-Master-Calculator)** is open-source and available for educational and learning purposes.
 
 <div align="center">
 
