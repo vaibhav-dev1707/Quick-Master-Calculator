@@ -10,10 +10,8 @@ Quick-Master-Calculator is a modern, responsive and interactive web-based calcul
 # **🚀 Overview**
 </div>
 
-<ul>
-  <li> This calculator allows users to perform common arithmetic operations with ease. It provides instant results, smooth interaction and a responsive layout that works seamlessly across different devices. The project is lightweight, fast and does not require any external libraries or frameworks.</li>
-  <li> It also serves as a practical front-end project for learning DOM Manipulation, Event Handling and responsive web design.</li>
-</ul>
+- This calculator allows users to perform common arithmetic operations with ease. It provides instant results, smooth interaction and a responsive layout that works seamlessly across different devices. The project is lightweight, fast and does not require any external libraries or frameworks.
+- It also serves as a practical front-end project for learning DOM Manipulation, Event Handling and responsive web design.
 
 <div align="center">
 
@@ -39,7 +37,10 @@ HTML5 – Structure and layout of the calculator <br>
 CSS3 – Styling, responsiveness and visual appearance <br>
 JavaScript (ES6) – Calculation logic and user interactions <br>
 
-<h2>📂 Project Structure</h2>
+<div align="center">
+
+# **📂 Project Structure**
+</div>
 
 Quick-Master-Calculator/ <br>
 │ <br>
@@ -53,13 +54,11 @@ Quick-Master-Calculator/ <br>
 # **⚙️ How It Works**
 </div>
 
-<ol>
-  <li> The user clicks the calculator buttons.</li>
-  <li> JavaScript captures the input and displays it on the screen.</li>
-  <li> Mathematical expressions are processed dynamically.</li>
-  <li> The result is calculated instantly when the equals (=) button is pressed.</li>
-  <li> The clear function resets the display for a new calculation.</li>
-</ol>
+- The user clicks the calculator buttons.</li>
+- JavaScript captures the input and displays it on the screen.</li>
+- Mathematical expressions are processed dynamically.</li>
+- The result is calculated instantly when the equals (=) button is pressed.</li>
+- The clear function resets the display for a new calculation.</li>
 
 <div align="center">
 
@@ -73,16 +72,14 @@ Quick-Master-Calculator/ <br>
 # **🎯 Educational Value**
 </div>
 
-# **This project is an excellent learning resource for beginners who want to understand :**
+**This project is an excellent learning resource for beginners who want to understand :**
 
-<ol>
-  <li> DOM Manipulation</li>
-  <li> Event Handling</li>
-  <li> JavaScript Functions</li>
-  <li> Responsive Web Design</li>
-  <li> User Interface Development</li>
-  <li> Front-End Project Structure</li>
-</ol>
+- DOM Manipulation
+- Event Handling
+- JavaScript Functions
+- Responsive Web Design
+- User Interface Development
+- Front-End Project Structure
 
 **💡 Why This Project Is Useful :**
 
