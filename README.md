@@ -84,7 +84,7 @@ Quick-Master-Calculator/ <br>
   <li> Front-End Project Structure</li>
 </ol>
 
-# **💡 Why This Project Is Useful : **
+**💡 Why This Project Is Useful :**
 
 - The "Quick-Master-Calculator" project, simplifies everyday calculations while serving as a practical example of front-end web development. It helps developers understand how HTML, CSS and JavaScript work together to build real-world applications.
 
