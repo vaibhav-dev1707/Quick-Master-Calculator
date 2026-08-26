@@ -83,7 +83,8 @@ Quick-Master-Calculator/ <br>
 
 **💡 Why This Project Is Useful :**
 
-- The "Quick-Master-Calculator" project, simplifies everyday calculations while serving as a practical example of front-end web development. It helps developers understand how HTML, CSS and JavaScript work together to build real-world applications.
+- The **[Quick-Master-Calculator](https://github.com/vaibhsh17/Quick-Master-Calculator)** project, simplifies everyday calculations while serving as a practical example of front-end web development.
+- It helps developers understand how HTML, CSS and JavaScript work together to build real-world applications.
 
 <div align="center">
 
